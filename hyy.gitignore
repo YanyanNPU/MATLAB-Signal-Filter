@@ -1,0 +1,49 @@
+# MATLAB 临时文件/备份文件
+*.m~
+*.asv
+*.mat.bak
+*.fig.bak
+*.mlx.bak
+*.slx.bak
+
+# 自动生成的文件
+*.mat  # 若需上传必要的 .mat 数据文件，可删除这行（仅忽略临时 .mat）
+*.fig
+*.slx
+*.mdl
+*.ssd
+*.sldd
+*.sldprj
+*.slxc
+*.slxp
+*.tp
+*.tph
+*.c
+*.cpp
+*.h
+*.hpp
+*.mex*
+*.dll
+*.so
+*.dylib
+
+# 日志/缓存文件
+*.log
+*.txt
+*.tmp
+*.temp
+*.swp
+.DS_Store  # Mac 系统临时文件
+Thumbs.db  # Windows 系统临时文件
+
+# MATLAB 项目文件（可选，若需分享项目结构可删除）
+*.prj
+*.mlprj
+*.matlab
+*.settings
+
+# 输出文件夹（如 results/，若需上传示例结果可删除）
+results/
+output/
+bin/
+build/
